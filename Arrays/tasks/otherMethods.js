@@ -23,4 +23,4 @@ function isEqual(objectOne, objectTwo) {
     return true;
   }
 
-module.exports = { mySlice, isEqual};
+  module.exports = { mySlice, isEqual};
