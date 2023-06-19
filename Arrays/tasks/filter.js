@@ -1,4 +1,4 @@
-const { isEqual } = require('./otherMethods.js');
+const { isEqual } = require('./otherFunctions.js');
 
 function filter(array, predicate) {
     let result = [];

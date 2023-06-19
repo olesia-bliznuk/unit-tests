@@ -1,7 +1,7 @@
 function includes(collection, value, fromIndex = 0) {
     if (fromIndex < 0)
         fromIndex = 0;
-    if (typeof collection === 'string' && collection.indexOf(value, fromIndex) !== -1){
+    if (typeof collection === 'string' && collection.indexOf(value, fromIndex) !== -1) {
         return true;
     } else if (typeof collection === 'object') {
         if (Array.isArray(collection)) {

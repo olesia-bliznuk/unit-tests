@@ -1,4 +1,4 @@
-const { isEqual } = require('./otherMethods.js');
+const { isEqual } = require('./otherFunctions.js');
 
 function find(collection, predicate, fromIndex = 0) {
     switch (typeof predicate) {

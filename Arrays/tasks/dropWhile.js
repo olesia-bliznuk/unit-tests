@@ -1,4 +1,4 @@
-const { mySlice, isEqual } = require('./otherMethods.js');
+const { mySlice, isEqual } = require('./otherFunctions.js');
 
 function dropWhile(array, predicate) {
     switch (typeof predicate) {

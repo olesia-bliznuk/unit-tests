@@ -23,8 +23,3 @@ function map(collection, iteratee) {
 }
 
 module.exports = map;
-
-
-//string iteratii
-//objext coll
-//array coll

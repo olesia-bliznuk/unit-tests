@@ -1,19 +1,14 @@
-function include (array, element){
-    for (let i = 0; i < array.length; i++){
-        if ( array[i] === element)
-        return true;
-    }
-    return false;
-}
+const { myInclude } = require('./otherFunctions');
 
 function omit(object, sources) {
-    if (!sources) return object;
+    if (!sources)
+        return object;
     let result = {};
-    for (key in object){
-        if (!include(sources, key))
+    for (key in object) {
+        if (!myInclude(sources, key))
             result[key] = object[key];
     }
     return result;
-  }
+}
 
 module.exports = omit;

@@ -16,4 +16,5 @@ function zip(...array) {
 
     return result;
 }
+
 module.exports = zip;

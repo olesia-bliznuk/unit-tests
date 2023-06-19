@@ -1,4 +1,4 @@
-const { mySlice } = require('./otherMethods.js');
+const { mySlice } = require('./otherFunctions.js');
 
 function drop(array, num = 1) {
     if (isNaN(num) || array.length === 0) return [];

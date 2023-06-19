@@ -1,4 +1,4 @@
-const { mySlice } = require('./otherMethods.js');
+const { mySlice } = require('./otherFunctions.js');
 
 function chunk(array, size = 1) {
     if (size >= array.length)

@@ -1,4 +1,4 @@
-const { mySlice } = require('./otherMethods.js');
+const { mySlice } = require('./otherFunctions.js');
 
 function take(array, num = 1) {
     if (num <= 0 || isNaN(num) || array.length === 0) return [];
